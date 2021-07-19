@@ -1,0 +1,142 @@
+section{
+    background-color: greenyellow;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: red;
+    width: 100%;
+}
+
+#nav_bbc{
+    background-color: white;
+    height: 40px;
+}
+
+#nav_bbc ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: baseline;
+    background-color: white;
+    
+    
+    height: 100%;
+
+}
+
+#nav_bbc a{
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid black;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+header ul{
+    background-color: royalblue;
+    
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#research_bar{
+    position: absolute; right: 11.5%; top: 0;
+    display: flex;
+}
+
+#sign img{
+    max-width: 29px;
+    max-height: 25px;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+}
+#bell img{
+    max-width: 29px;
+    max-height: 25px;
+    width: auto;
+    height: auto;
+}
+
+#searchicon img{
+    max-width: 29px;
+    max-height: 25px;
+    width: auto;
+    height: auto;
+}
+
+#research_bar input{
+    color: black;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    margin-top: 10px;
+    margin-left: -10px;
+
+    width: 90%;
+    height: 25px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+#research_bar a{
+    margin-top: 10px;
+}
+
+/* first nav hovers and paddings corrections */
+
+#logo{
+    margin-left: -37px;
+}
+
+#logo a{
+    padding-right: 5px;
+}
+
+#sign a{
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+#sign a:hover{
+    border-bottom: 5px solid blue;
+
+}
+
+#bell a{
+    padding-left: 15px;
+}
+
+#mor a{
+    padding-right: 110px;
+}
+
+#mor a:hover{
+    border-bottom: 5px solid black;
+}
+
+.blc a:hover{
+    border-bottom: 5px solid black;
+}
+
+#yell a:hover{
+    border-bottom: 5px solid yellow;
+}
+
+#azz a:hover{
+    border-bottom: 5px solid rgba(0, 153, 255, 0.897);
+}
+
+#bell a:hover{
+    border-bottom: 5px solid black;
+}
+
+
