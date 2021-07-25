@@ -3,22 +3,19 @@ section{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+   
 }
 
 #bloc_page{
-    background-color: chocolate;
+    background-color: white;
 }
 
 header{
-    background-color: red;
     width: 100%;
 }
 
 #nav_bbc{
-    background-color: pink;
     height: 40px;  
-
-    
 }
 
 #nav_bbc ul{
@@ -26,34 +23,33 @@ header{
     flex-direction: row;
     list-style-type: none;
     align-items: baseline;
-    background-color: green;
     
     width: 1000px;
     height: 100%;
-
 }
 
 #nav_bbc a{
     text-decoration: none;
     color: black;
+
     border-right: 1px solid black;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 15px 10px 15px;
+
     background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    
 }
 
 header ul{
-    
-    
     width: 97%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #research_bar{
-    position: absolute; right: 11.5%; top: 0;
+    position: absolute; right: 12.5%; top: 0;
     display: flex;
 }
 
@@ -83,7 +79,7 @@ header ul{
     background-color: rgb(228, 228, 228);
     border: none;
     margin-top: 10px;
-    margin-left: -10px;
+    margin-left: -15px;
 
     width: 90%;
     height: 25px;
@@ -122,7 +118,7 @@ input::placeholder{
 }
 
 #mor a{
-    padding-right: 110px;
+    padding-right: 105px;
 }
 
 #mor a:hover{
@@ -149,35 +145,191 @@ input::placeholder{
 
 #nav_red{
     background-color: powderblue;
+    z-index: 1;
 }
 
-#nav_red div{
+#newloc{
     display: flex;
     justify-content: space-between;
+    background-color: rgba(173, 16, 16, 0.897);
+    z-index: 1;
+    height: 11%;
+}
+
+#newloc a{
+    text-decoration: none;
+}
+
+#newloc p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #NEWS{
     margin-left: 12%;
+    font-size: 2.5em;
+    margin-top: -2.5%;
+}
+
+#local_news p:hover{
+    margin-bottom: 1px solid white;
+    padding-bottom: 0;
 }
 
 #local_news{
-    margin-right: 12%;
+    margin-right: 13%;
+    margin-top: 1%;
+    font-size: 1.4em;   
+    height: 50%;
+    border: 1px solid white;
+    padding: 3px 20px 0px 10px;
+}
+
+#local_news p {
+    margin-top: 0px;
+}
+
+#local_news p:hover{
+    border-bottom: 1px solid white;
 }
 
 #nav_red ul{
     list-style-type: none;
+    background-color: rgba(175, 0, 0, 0.884);
+
     display: flex;
-    background-color: mediumvioletred;
     justify-content: center;
+    align-items: center;
+
+    margin-top: 0;
+    height: 6.5%;
+
+    margin: 0;
+    padding: 0;
+
+    max-width: 100%;
+    width: auto;
+    
 }
-#nav_red li{
-    margin-right: 2%;
+
+#nav_red img{
+    max-width: 15px;
+    max-height: 15px;
+    width: auto;
+    height: auto;
 }
 
 #nav_red a{
     text-decoration: none;
     color: white;
 
+    z-index: 1;
+
+    border-right: 1px solid white;
+    padding-right: 13px;
+    padding-left: 13px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95em;
+
 }
+
+#nav_red a:hover{
+    border-bottom: 4px solid white;
+    padding-bottom: 6px;
+}
+
+/* SECTION */
+
+#themepage {
+    margin-top: -10px;
+}
+
+#themepage p{
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid red;
+    width: 11.5%;
+}
+
+article a{
+    text-decoration: none;
+}
+
+article h1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7em;
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article figure img{
+    max-height: 350px;
+    max-width: 370px;
+    width: auto;
+    height: auto;
+    margin-right: 35%;
+    float: right;
+    
+}
+
+article figcaption{
+    background-color: burlywood;
+    width: 30%;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inmain ul{
+    list-style-type: none;
+    background-color: cyan;
+    width: 20%;
+}
+
+#inmain li{
+    margin-left: -19%;
+    background-color: darkcyan;
+    
+}
+
+aside{
+    background-color: darksalmon;
+    width: 26.5%;
+
+    position: absolute; top: 32%; left: 60.5%;
+}
+aside a{
+    text-decoration: none;
+    color: black;
+}
+
+aside h2{
+
+}
+
+aside ul{
+    list-style-type: none;
+} 
+
+aside li{
+    background-color: wheat;
+    margin-right: 20px;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+aside img{
+    max-width: 110px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+
+    float: left;
+}
+
+
+
 
 
