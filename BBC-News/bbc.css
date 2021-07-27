@@ -1,9 +1,8 @@
 section{
-    background-color: greenyellow;
+    background-color: white;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-   
 }
 
 #bloc_page{
@@ -16,6 +15,7 @@ header{
 
 #nav_bbc{
     height: 40px;  
+    background-color: white;
 }
 
 #nav_bbc ul{
@@ -26,19 +26,22 @@ header{
     
     width: 1000px;
     height: 100%;
+
+    
 }
 
 #nav_bbc a{
     text-decoration: none;
     color: black;
 
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(185, 185, 185);
     padding: 10px 15px 10px 15px;
 
     background-color: white;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
+    font-weight: bold;
     
 }
 
@@ -66,6 +69,7 @@ header ul{
     width: auto;
     height: auto;
 }
+
 
 #searchicon img{
     max-width: 29px;
@@ -118,7 +122,7 @@ input::placeholder{
 }
 
 #mor a{
-    padding-right: 105px;
+    padding-right: 90px;
 }
 
 #mor a:hover{
@@ -171,26 +175,25 @@ input::placeholder{
     margin-top: -2.5%;
 }
 
-#local_news p:hover{
-    margin-bottom: 1px solid white;
-    padding-bottom: 0;
-}
 
 #local_news{
-    margin-right: 13%;
-    margin-top: 1%;
-    font-size: 1.4em;   
+    margin-right: 18%;
+    margin-top: 2%;
+    font-size: 1.2em;   
     height: 50%;
-    border: 1px solid white;
-    padding: 3px 20px 0px 10px;
+    border: 1px solid rgba(185, 185, 185, 0.5);
+    height: 30px;
+    width: 165px;
 }
 
 #local_news p {
-    margin-top: 0px;
+    margin-top: 4px;
+    margin-left: 5px;
+    width: 82%;
 }
 
 #local_news p:hover{
-    border-bottom: 1px solid white;
+border-bottom: 1px solid white;
 }
 
 #nav_red ul{
@@ -254,6 +257,7 @@ input::placeholder{
 
 article a{
     text-decoration: none;
+    color: rgb(100, 100, 100);
 }
 
 article h1 a{
@@ -263,6 +267,10 @@ article h1 a{
     background-color: white;
 
     font-family: Arial, Helvetica, sans-serif;
+}
+
+article h1 a:hover{
+    color: rgb(0, 60, 255);
 }
 
 article figure img{
@@ -276,7 +284,7 @@ article figure img{
 }
 
 article figcaption{
-    background-color: burlywood;
+    background-color: white;
     width: 30%;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -284,39 +292,68 @@ article figcaption{
 
 #inmain ul{
     list-style-type: none;
-    background-color: cyan;
+    background-color: white;
     width: 20%;
 }
 
-#inmain li{
+#inmain li a{
     margin-left: -19%;
-    background-color: darkcyan;
-    
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+#inmain li a:hover{
+    color: rgb(0, 60, 255);
+}
+
+#inmain li{
+    margin-bottom: 7px;
 }
 
 aside{
-    background-color: darksalmon;
-    width: 26.5%;
+    background-color: white;
+    width: 26%;
 
-    position: absolute; top: 32%; left: 60.5%;
+    position: absolute; top: 32%; left: 61.5%;
+
+    border-left: 1px solid rgb(185, 185, 185);
 }
 aside a{
     text-decoration: none;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    
+
 }
 
 aside h2{
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 5%;
 }
 
 aside ul{
     list-style-type: none;
+    background-color: white;
+    width: 85%;
+    height: 100%;
+    
 } 
 
+aside figcaption{
+    background-color: white;
+    width: 95%;
+    
+}
+
 aside li{
-    background-color: wheat;
-    margin-right: 20px;
-    margin-bottom: 2%;
+    background-color: white;
+    height: 70px;
+    margin-left: -7.5%;
     width: 100%;
 }
 
@@ -327,8 +364,33 @@ aside img{
     height: auto;
 
     float: left;
+    margin-left: -40px;
+    
 }
 
+.hour{
+    color: rgb(100, 100, 100);
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+    border-right: 1px solid grey;
+    padding-right: 10px;
+    
+}
+
+.theeme{
+    color: rgba(175, 0, 0, 0.884);
+    font-size: smaller;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.theeme:hover{
+    color: rgb(0, 60, 255);
+}
 
 
 
